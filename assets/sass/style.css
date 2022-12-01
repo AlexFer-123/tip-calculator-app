@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+section.calculator .banner {
+  padding: 8rem 0 4rem;
+}
+section.calculator .banner h1 {
+  font-size: 1.9rem;
+  letter-spacing: 0.7em;
+  color: hsl(186deg, 14%, 43%);
+}
+section.calculator .calculator-interface {
+  background-color: hsl(0deg, 0%, 100%);
+  padding: 3rem;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 38px 10px rgba(0, 0, 0, 0.17);
+}
+section.calculator .cal {
+  margin-right: 3rem;
+}
+section.calculator .display {
+  background-color: hsl(183deg, 100%, 15%);
+  padding: 2rem 2rem 2rem 2rem;
+  border-radius: 1rem;
+}
+section.calculator .display .info-acount {
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section.calculator .display .info-acount .tip {
+  font-size: 1.02rem;
+  color: hsl(0deg, 0%, 100%);
+}
+section.calculator .display .info-acount .comment {
+  font-size: 0.975rem;
+  color: hsl(186deg, 14%, 43%);
+}
+section.calculator .display .value {
+  font-size: 3.3rem;
+  color: hsl(172deg, 67%, 45%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+section.calculator .display .btn-reset {
+  background-color: hsl(172deg, 67%, 45%);
+  color: hsl(0deg, 0%, 100%);
+  font-size: 1.2rem;
+  padding: 0.7rem 0;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+@media (min-width: 420px) {
+  .cal {
+    margin-right: 0rem;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(185deg, 41%, 84%);
+  font-family: "Space Mono", sans-serif;
+}/*# sourceMappingURL=style.css.map */

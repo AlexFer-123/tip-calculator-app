@@ -1,0 +1,14 @@
+@import './base/variables.scss';
+@import './pages/home.scss';
+@import './base/responsive.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $light-grayish;
+    font-family: $font-family;
+}

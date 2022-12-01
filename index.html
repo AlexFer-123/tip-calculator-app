@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css" integrity="sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.min.js" integrity="sha512-5BqtYqlWfJemW5+v+TZUs22uigI8tXeVah5S/1Z6qBLVO7gakAOtkOzUtgq6dsIo5c0NJdmGPs0H9I+2OHUHVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- main-style 👍 -->
+  <link rel="stylesheet" href="./assets/sass/style.css">
+
+<body>
+
+  <section class="container calculator">
+    <div class="row">
+      <div class="col-12 d-flex justify-content-center banner">
+        <h1>SPLI<br>TTER</h1>
+      </div>   
+      <div class="col-12 calculator-interface">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <div class="cal">
+              <div class="bill-block">
+                <div class="bill-header d-block"><h3>Bill</h3></div>
+                <div class="bill-input d-flex justify-content-between">
+                  <img src="./images/icon-dollar.svg" alt="">
+                  <p>142.55</p>
+                </div>
+              </div>
+              <div class="select-tip-block">
+                <div class="select-header"><h3>Select Tip %</h3></div>
+                <div class="select-buttons">
+                  <button class="percentages"></button>
+                  <button class="percentages"></button>
+                  <button class="percentages"></button>
+                  <button class="percentages active"></button>
+                  <button class="percentages"></button>
+                  <button class="percentages"></button>
+                  <button class="percentages custom"></button>
+                </div>
+              </div>
+              <div class="people-number">
+                <div class="input-people d-flex justify-content-between">
+                  <img src="./images/icon-person.svg" alt="">
+                  <p>5</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 display">
+            <div class="row">
+              <div class="col-6">
+                <div class="info-acount">
+                  <div class="tip">Tip Acount</div>
+                  <div class="comment">/ person</div>
+                </div>
+              </div>
+              <div class="col-6 value">
+                <div class="text-right">$4.27</div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-6">
+                <div class="info-acount">
+                  <div class="tip">Total</div>
+                  <div class="comment">/ person</div>
+                </div>
+              </div>
+              <div class="col-6 value">
+                <div class="text-right">$32.79</div>
+              </div>
+              <div class="col-12 mt-5">
+                <a href="" class="btn btn-reset w-100 text-center mt-5">RESET</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
